@@ -24,15 +24,15 @@ public class Test {
 		System.out.println((int)fNum);
 		System.out.println(iNum1 / (int)fNum);
 		
-		System.out.println(iNum1 / fNum);
+		System.out.println((float)iNum1 / fNum);
 		System.out.println((double)iNum1 / fNum);
 		
-		System.out.println(ch); //'A' ????????
+		System.out.println("'" + ch + "'"); //'A' ????????
 		System.out.println((int)ch);
 		System.out.println((int)ch + iNum1);
-		System.out.println( (char)(ch + iNum1) );
+		System.out.println("'" + (char)(ch + iNum1) + "'"); // 'K'????????????
 		
-		
+	
 
 		
 	}
